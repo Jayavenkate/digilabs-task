@@ -1,0 +1,41 @@
+.button {
+  background: rgb(228, 227, 227);
+  text-transform: none;
+  color: black;
+  min-width: 98px;
+  height: 16px;
+
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.pelement {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 20px;
+  color: Neutral/50 #121417;
+  margin: 0px;
+  padding: 0px;
+}
+.divcon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin: 10px;
+  padding: 0px;
+}
+@media (max-width: 1024px) {
+}
+@media screen and (max-width: 640px) {
+  .pelement {
+    font-weight: 700;
+    font-size: 13px;
+
+    margin: 0px;
+    padding: 0px;
+  }
+}

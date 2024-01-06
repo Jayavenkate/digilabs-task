@@ -1,0 +1,35 @@
+.header {
+  color: #121417;
+  font-weight: 500;
+  font-size: 16px;
+  font-style: Inter;
+}
+
+.subheader {
+  color: #5a6475;
+  font-weight: 500;
+  font-size: 14px;
+  font-style: Inter;
+  width: 280px;
+}
+.divcon {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 50px;
+  gap: 20px;
+}
+
+@media (max-width: 1024px) {
+}
+@media screen and (max-width: 640px) {
+  .divcon {
+    display: flex;
+    width: 300px;
+    flex-wrap: wrap;
+    margin: 50px auto;
+  }
+}

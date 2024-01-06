@@ -1,0 +1,55 @@
+.pelemnet {
+  max-width: 400px;
+  font-weight: 500;
+  font-size: 16px;
+  font-style: Inter;
+  color: #5a6475;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+.footer {
+  font-weight: 500;
+  font-size: 16px;
+  font-style: Inter;
+  color: #363c46;
+}
+.header {
+  font-weight: 700;
+  font-size: 16px;
+  font-style: Inter;
+  color: #24282f;
+}
+.divcon {
+  display: grid;
+
+  grid-template-columns: repeat(auto-fit, minmax(100px, 4fr));
+  align-items: center;
+  justify-content: center;
+
+  margin-left: 50px;
+}
+.innerdiv {
+  text-align: start;
+  width: 150px;
+}
+@media screen and (max-width: 768px) {
+  .divcon {
+    max-width: 380px;
+    margin-left: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-template-rows: auto; /* Enable automatic row creation */
+    gap: 20px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .divcon {
+    max-width: 280px;
+    margin-left: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-template-rows: auto; /* Enable automatic row creation */
+    gap: 20px;
+  }
+}

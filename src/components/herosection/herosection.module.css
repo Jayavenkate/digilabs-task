@@ -1,0 +1,55 @@
+.divcon {
+  text-align: center;
+  margin-top: 30px;
+}
+.pelement {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  font-style: Inter;
+  color: #582066;
+}
+.heading {
+  max-width: 600px;
+  margin: 0 auto;
+  font-weight: 600;
+  font-size: 62px;
+  color: #121417;
+  font-style: Manrope;
+}
+.button {
+  text-transform: none;
+  background-color: #582066;
+  border-radius: 8px;
+  gap: 10px;
+}
+.pelement {
+  max-width: 400px;
+  margin: 20px auto;
+  font-weight: 400;
+  color: #5a6475;
+  font-size: 15px;
+  font-style: Inter;
+}
+@media (max-width: 1024px) {
+  .heading {
+    font-weight: 600;
+    font-size: 62px;
+  }
+}
+@media screen and (max-width: 640px) {
+  .heading {
+    font-size: 42px;
+    font-weight: 600;
+    color: #121417;
+    font-style: Manrope;
+    width: 340px;
+  }
+  .button {
+    width: 340px;
+  }
+  .pelement {
+    width: 300px;
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,11 @@
+.pelement {
+  font-style: Manrope;
+  font-size: 500;
+  font-family: 32px;
+  color: #24282f;
+  width: 350px;
+}
+.heading {
+  margin: 0;
+  padding: 3px 0px;
+}

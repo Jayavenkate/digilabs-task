@@ -1,0 +1,45 @@
+.number {
+  font-style: Manrope;
+  font-size: 600;
+  font-family: 48px;
+  color: #582066;
+}
+.title {
+  font-style: Inter;
+  font-size: 500;
+  font-family: 16px;
+  color: #121417;
+}
+.paratext {
+  font-style: Inter;
+  font-size: 400;
+  font-family: 16px;
+  color: #5a6475;
+}
+.container {
+  display: flex;
+  margin-top: 50px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  width: "100%";
+}
+.divcon {
+  width: 210px;
+  
+}
+@media screen and (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+  .divcon {
+    width: 768px;
+   
+  }
+  .paratext {
+    width: 240px;
+    margin: 0 auto;
+  }
+}

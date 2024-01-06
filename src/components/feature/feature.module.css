@@ -1,0 +1,29 @@
+.header {
+  color: #121417;
+  font-weight: 600;
+  font-size: 35px;
+  font-style: Manrope;
+  max-width: 500px;
+  text-align: center;
+  margin: 0 auto;
+}
+.paragraph {
+  color: #5a6475;
+  font-weight: 400;
+  font-size: 18px;
+  font-style: Inter;
+  max-width: 400px;
+  text-align: center;
+  margin: 15px auto;
+}
+@media (max-width: 1024px) {
+}
+@media screen and (max-width: 640px) {
+  .header {
+    padding: 0px 10px;
+   
+  }
+  .paragraph {
+    padding: 0px 10px;
+  }
+}
