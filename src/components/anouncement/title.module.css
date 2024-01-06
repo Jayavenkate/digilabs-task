@@ -28,8 +28,7 @@
   margin: 10px;
   padding: 0px;
 }
-@media (max-width: 1024px) {
-}
+
 @media screen and (max-width: 640px) {
   .pelement {
     font-weight: 700;

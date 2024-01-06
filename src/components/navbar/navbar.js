@@ -7,6 +7,7 @@ import { Button, IconButton, Menu, MenuItem } from "@mui/material";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import MenuIcon from "@mui/icons-material/Menu";
 import styles from "./navbar.module.css";
+import LoginIcon from "@mui/icons-material/Login";
 export default function NavBar() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
   const Links = ["Banking", "Processing", "About", "Carrier", "Contact"];
@@ -52,6 +53,7 @@ export default function NavBar() {
             width={84}
             height={16}
           />
+
           <div className={styles.navlink}>
             <Button
               className={styles.navbutton}
@@ -86,21 +88,7 @@ export default function NavBar() {
             }}
           >
             Login
-            <svg
-              width="18"
-              height="18"
-              viewBox="0 0 18 18"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M11.5 1.5H14.8333C15.2754 1.5 15.6993 1.67559 16.0118 1.98816C16.3244 2.30072 16.5 2.72464 16.5 3.16667V14.8333C16.5 15.2754 16.3244 15.6993 16.0118 16.0118C15.6993 16.3244 15.2754 16.5 14.8333 16.5H11.5M7.33333 13.1667L11.5 9M11.5 9L7.33333 4.83333M11.5 9H1.5"
-                stroke="#5A6475"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-            </svg>
+            <LoginIcon />
           </Button>
         </div>
         <IconButton
