@@ -1,14 +1,14 @@
 .button {
-  background: rgb(228, 227, 227);
-  text-transform: none;
+  background: #e6e7e9;
+
   color: black;
   min-width: 98px;
-  height: 16px;
-
+  height: 20px;
+  border-color: #e6e7e9;
   font-weight: 500;
   font-size: 12px;
-  line-height: 16px;
-  padding: 10px;
+  /* line-height: 16px; */
+  /* padding: 10px; */
   border-radius: 10px;
 }
 .pelement {
