@@ -13,7 +13,7 @@
 }
 @media (max-width: 1024px) {
 }
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 768px) {
   .divcon {
     margin: 50px auto;
     gap: 3px;

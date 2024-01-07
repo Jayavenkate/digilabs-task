@@ -57,7 +57,7 @@ export default function NavBar() {
           <div className={styles.navlink}>
             <button
               className={styles.navbutton}
-              sx={{ display: { xs: "none", md: "flex" } }}
+             
             >
               Card access <KeyboardArrowDownIcon />
             </button>
@@ -65,7 +65,7 @@ export default function NavBar() {
               <div key={index}>
                 <button
                   className={styles.navbutton}
-                  sx={{ display: { xs: "none", md: "flex" } }}
+                 
                 >
                   {item}
                 </button>
