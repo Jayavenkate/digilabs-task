@@ -55,20 +55,20 @@ export default function NavBar() {
           />
 
           <div className={styles.navlink}>
-            <Button
+            <button
               className={styles.navbutton}
               sx={{ display: { xs: "none", md: "flex" } }}
             >
               Card access <KeyboardArrowDownIcon />
-            </Button>
+            </button>
             {Links.map((item, index) => (
               <div key={index}>
-                <Button
+                <button
                   className={styles.navbutton}
                   sx={{ display: { xs: "none", md: "flex" } }}
                 >
                   {item}
-                </Button>
+                </button>
               </div>
             ))}
           </div>

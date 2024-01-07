@@ -8,7 +8,7 @@ export default function CallAction() {
         Unlock Limitless Possibilities with Our New Card Solutions
       </h2>
       <div className={styles.divbutton}>
-        <Button className={styles.button} variant="contained">
+        <button className={styles.button}>
           Unlock your card
           <svg
             width="21"
@@ -58,8 +58,8 @@ export default function CallAction() {
               </clipPath>
             </defs>
           </svg>
-        </Button>
-        <Button className={styles.button2}>
+        </button>
+        <button className={styles.button2}>
           Customer support
           <Image
             src="/headphone.jpg"
@@ -67,8 +67,12 @@ export default function CallAction() {
             width={13}
             height={13}
           />
-        </Button>
+        </button>
       </div>
+      {/* <button className={styles.button2}>
+        Customer support
+        <Image src="/headphone.jpg" alt="Vercel Logo" width={13} height={13} />
+      </button> */}
     </div>
   );
 }

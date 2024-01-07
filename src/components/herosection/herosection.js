@@ -7,16 +7,11 @@ export default function HeroSection() {
       <h1 className={styles.heading}>
         Unleashing the Next Generation of Card Solutions
       </h1>
-      <p className={styles.pelement}
-        
-      >
+      <p className={styles.pelement}>
         consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
         et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
       </p>
-      <Button className={styles.button}
-      
-        variant="contained"
-      >
+      <button className={styles.button}>
         Unlock your Card
         <svg
           width="15"
@@ -33,7 +28,7 @@ export default function HeroSection() {
             stroke-linejoin="round"
           />
         </svg>
-      </Button>
+      </button>
       <p style={{ color: "#5A6475", fontSize: "14px", fontWeight: 500 }}>
         *No credit card required
       </p>

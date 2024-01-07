@@ -4,6 +4,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  gap: 10px;
 }
 .navbutton {
   text-transform: none;
@@ -11,5 +12,9 @@
   font-size: 16px;
   line-height: 20px;
   color: #363c46;
+  border: none;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
-

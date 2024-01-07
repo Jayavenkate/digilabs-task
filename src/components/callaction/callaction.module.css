@@ -9,17 +9,30 @@
   margin-bottom: 20px;
 }
 .button {
-  text-transform: none;
   background-color: #582066;
   color: #ffff;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  height: 35px;
+  border: #582066;
 }
 .button2 {
   text-transform: none;
+  border: #5a6475;
   color: #5a6475;
   background-color: #eeefef;
   display: flex;
+  align-items: center;
+  justify-content: center;
   gap: 10px;
+  height: 35px;
+  border-radius: 8px;
 }
+
+
 .divbutton {
   display: flex;
   align-items: center;

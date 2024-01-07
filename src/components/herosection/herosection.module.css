@@ -18,10 +18,16 @@
   font-style: Manrope;
 }
 .button {
-  text-transform: none;
+  width: 200px;
+  height: 40px;
+  color: white;
   background-color: #582066;
   border-radius: 8px;
-  gap: 10px;
+  display:flex;
+  margin: 0 auto;
+  gap:10px;
+  align-items: center;
+  justify-content: center;
 }
 .pelement {
   max-width: 400px;
